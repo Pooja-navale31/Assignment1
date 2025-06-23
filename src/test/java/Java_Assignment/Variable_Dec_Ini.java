@@ -1,4 +1,4 @@
-package com.rest;
+package Java_Assignment;
 
 public class Variable_Dec_Ini {
     public static void main(String[] args) {
