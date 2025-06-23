@@ -1,8 +1,12 @@
 package Java_Assignment;
 
+import java.util.Scanner;
+
 public class Leap_Year_Checker {
     public static void main(String[] args) {
-        int year = 1900;
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter year");
+        int year=sc.nextInt();
         boolean isLeapYear = false;
 
         if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)) {
